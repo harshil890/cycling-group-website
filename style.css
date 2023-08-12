@@ -1,0 +1,99 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url(./WhatsApp\ Image\ 2023-07-29\ at\ 13.07.42.jpg);
+    background-size: cover;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+#logo00{
+    color: #cfc9ff;
+    font-size: 28px;
+    text-shadow:5px 5px 7px rgb(226, 32, 32) 
+    ;
+    font-family: cursive;
+}
+#logo {
+    height: 70px;
+    width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#menuul li{
+    font-size: 20px;
+    font-family:cursive;
+    color: aliceblue;
+    display: inline-block;
+    margin: 0 14px;
+    transition: all .6s ;
+}
+#menuul li:hover{
+    color: rgb(42, 223, 42);
+    
+}
+#menu{
+    width: 1200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#centerpart{
+     width: 900px;
+     height: 600px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#slogan{
+    color: white;
+    font-family:cursive;
+    font-size: 40px;
+}
+#button1{
+    font-family: cursive;
+    color: azure;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 40px;
+    transition: all .6s ;
+}
+#button2{
+    font-family: cursive;
+    color: azure;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 40px;
+   
+    transition: all .6s;
+    
+}
+#button1:hover{
+    text-shadow: 0px 0px 20px rgb(161, 161, 255);
+    box-shadow: 0px 0px 20px 1px rgb(161, 161, 255);
+}
+#button2:hover{
+    text-shadow: 0px 0px 20px rgb(161, 161, 255);
+    box-shadow: 0px 0px 20px 1px rgb(161, 161, 255);
+}
+
+
+#buttons{
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
